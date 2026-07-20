@@ -2,7 +2,7 @@
 
 # قيم ثابتة
 UUID="f47ac10b-58cc-4372-a567-0e02b2c3d479"
-WS_PATH="/@SV_GCP"
+WS_PATH="/@VS_GCP"
 PORT="${PORT:-8080}"
 
 # عرض القيم للتأكد (للسجلات)
