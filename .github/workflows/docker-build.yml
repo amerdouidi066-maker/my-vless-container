@@ -22,5 +22,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
+          platforms: linux/amd64
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/cloudx:latest
