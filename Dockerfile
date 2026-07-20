@@ -1,8 +1,8 @@
-FROM xtls/xray-core:latest
+FROM v2fly/v2fly-core:latest
 
-RUN mkdir -p /etc/xray
+RUN mkdir -p /etc/v2ray
 
-COPY config.json /etc/xray/config.json
+COPY config.json /etc/v2ray/config.json
 COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
