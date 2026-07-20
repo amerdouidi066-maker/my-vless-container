@@ -1,14 +1,11 @@
 {
-  "log": {
-    "loglevel": "warning"
-  },
   "inbounds": [
     {
       "port": "REPLACE_PORT",
       "protocol": "vless",
       "settings": {
         "clients": [
-          { "id": "REPLACE_UUID", "email": "user@example.com" }
+          { "id": "REPLACE_UUID" }
         ],
         "decryption": "none"
       },
@@ -22,12 +19,7 @@
   ],
   "outbounds": [
     {
-      "protocol": "freedom",
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "tag": "block"
+      "protocol": "freedom"
     }
   ]
 }
