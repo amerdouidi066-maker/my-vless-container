@@ -12,7 +12,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/@SV_GCP"
+          "path": "/Telegram/@CX_GCP/@CX_AMER" 
         }
       }
     }
